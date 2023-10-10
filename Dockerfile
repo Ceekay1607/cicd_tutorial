@@ -1,4 +1,4 @@
-FROM nginx
+FROM ubuntu
 MAINTAINER Cong Khanh "khanhb2012022@student.ctu.edu.vn"
 RUN apt update -y
 RUN apt install -y python3-pip python3-dev build-essential
